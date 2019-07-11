@@ -27,7 +27,7 @@ const handleBlogRouter = (req, res) => {
 	// 更新博客借口
 	if(method === 'POST' && path === '/api/blog/update'){
 		return {
-			msg: '这是删除博客的接口'
+			msg: '这是更新博客的接口'
 		}
 	}
 
